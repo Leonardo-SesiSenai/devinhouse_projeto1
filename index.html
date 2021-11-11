@@ -12,9 +12,9 @@
     <title>to do-list</title>
   </head>
   <body>
-    <h1 id="titulo-principal">TO DO - LIST</h1>
+    <h1 class="todo__title">TO DO - LIST</h1>
 
-    <form id="caixa" name="form_main">
+    <form class="todo" name="form_main">
       <label for="task"></label>
       <input
         placeholder="Digite sua tarefa..."
@@ -23,18 +23,19 @@
         id="task"
       />
       <br />
-      <button type="button" onclick="add()">
-        Click para adicionar uma tarefa
-      </button>
+      <button type="button" onclick="add()">Adicionar</button>
     </form>
 
-    <fieldset>
-      <legend>Tarefas:</legend>
-      <ul>
-        <li>Limpar casa</li>
-        <li>Outras</li>
-      </ul>
-    </fieldset>
+    <div class="todo__list">
+      <fieldset>
+        <legend>Tarefas:</legend>
+        <ul>
+          <li>Limpar casa</li>
+          <li>Outras</li>
+        </ul>
+      </fieldset>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
