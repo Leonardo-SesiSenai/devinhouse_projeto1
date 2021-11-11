@@ -12,20 +12,29 @@
     <title>to do-list</title>
   </head>
   <body>
-    <div class="todo">
-      <div class="todo__title">TO DO - LIST</div>
+    <h1 id="titulo-principal">TO DO - LIST</h1>
 
-      <div class="todo__list" id="todoList"></div>
+    <form id="caixa" name="form_main">
+      <label for="task"></label>
+      <input
+        placeholder="Digite sua tarefa..."
+        type="text"
+        name="task"
+        id="task"
+      />
+      <br />
+      <button type="button" onclick="add()">
+        Click para adicionar uma tarefa
+      </button>
+    </form>
 
-      <div class="todo__new-item" id="newItem">
-        <div>&and;</div>
-        <input
-          type="text"
-          placeholder="Digite e pressione enter para adicionar a tarefa"
-        />
-        <div>&and;</div>
-      </div>
-    </div>
+    <fieldset>
+      <legend>Tarefas:</legend>
+      <ul>
+        <li>Limpar casa</li>
+        <li>Outras</li>
+      </ul>
+    </fieldset>
     <script src="script.js"></script>
   </body>
 </html>

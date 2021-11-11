@@ -1,0 +1,35 @@
+body {
+  background-color: darkcyan;
+  margin: 0;
+  padding: 0;
+}
+
+#titulo-principal {
+  display: flex;
+  width: 30vw;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 35px;
+  padding: 5px;
+  background-color: yellowgreen;
+}
+#caixa {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 50px;
+  gap: 10px;
+}
+
+#task {
+  display: flex;
+  width: 350px;
+  padding: 6px;
+}
+
+.checked {
+  text-decoration: line-through;
+}
