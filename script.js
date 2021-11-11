@@ -1,6 +1,6 @@
 function createCloseButton(li) {
   let span = document.createElement('SPAN')
-  let txt = document.createTextNode('\u00D7')
+  let txt = document.createTextNode(' ' + '\u2718')
 
   span.className = 'close'
   span.appendChild(txt)
