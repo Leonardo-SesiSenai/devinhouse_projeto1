@@ -10,28 +10,33 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>to do list</title>
   </head>
   <body>
     <div class="content">
       <div class="row">
         <div class="col-12">
-          <h1>To-Do List</h1>
+          <h1>TO DO LIST</h1>
           <form>
             <input
               type="text"
               name="task"
               id="task"
-              placeholder="Novo Item..."
+              placeholder="Nova tarefa..."
             />
-            <input type="button" name="" onclick="addTask();" value="addTask" />
+            <input
+              type="button"
+              name=""
+              onclick="addTask();"
+              value="Adicionar"
+            />
           </form>
         </div>
       </div>
       <div class="row">
         <div class="col-12">
           <div class="to-do-list-box">
-            <label>My List</label>
+            <label>Minhas tarefas</label>
             <ul id="myList"></ul>
           </div>
         </div>
