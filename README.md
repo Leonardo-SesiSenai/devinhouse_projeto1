@@ -18,5 +18,5 @@ Você está participando de um processo seletivo para ingressar em uma vaga de p
 <h4 align="center">
 Site demonstração: https://leonardo-sesisenai.github.io/devinhouse_projeto1/
 </h4>
-=======
+
 <h1 align="center"> Projeto 1 DevInHouse - To-Do List</h1>
