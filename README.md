@@ -1,4 +1,4 @@
-<h1 align = "center"> Projeto 1 DevInHouse - Lista de tarefas </h1>
+<h1 align = "center"> Projeto 1 DevInHouse - To do List </h1>
 <h3> Descrição do projeto </h3>
 Você está participando de um processo seletivo para ingressar em uma vaga de programador em uma grande empresa de TI. Uma das etapas do processo envolve a criação de uma aplicação web de lista de afazeres (“lista de afazeres”).
 
@@ -19,4 +19,3 @@ Você está participando de um processo seletivo para ingressar em uma vaga de p
 Site demonstração: https://leonardo-sesisenai.github.io/devinhouse_projeto1/
 </h4>
 
-<h1 align="center"> Projeto 1 DevInHouse - To-Do List</h1>
