@@ -2,27 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./icon/lista-de-afazeres.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>my todo</title>
+    <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <div class="myTodo">
-        <div class="inputvalue">
-          <input
-            class="inputVal"
-            type="text"
-            placeholder="Adicione suas tarefas"
-            value=""
-          />
-          <button class="btn">Adicionar tarefas</button>
+    <div class="content">
+      <div class="row">
+        <div class="col-12">
+          <h1>To-Do List</h1>
+          <form>
+            <input
+              type="text"
+              name="task"
+              id="task"
+              placeholder="Novo Item..."
+            />
+            <input type="button" name="" onclick="addTask();" value="addTask" />
+          </form>
         </div>
-
-        <div class="todoLists"></div>
-        <button class="clearTask" onclick="clearTask()">Limpar lista</button>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="to-do-list-box">
+            <label>My List</label>
+            <ul id="myList"></ul>
+          </div>
+        </div>
       </div>
     </div>
-    <script src="main.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
